@@ -1297,7 +1297,9 @@ img.phone-portrait {
   text-align: center;
   line-height: 0;
 }
-.client-row .col-sm-3 {
+
+.client-row .col-sm-3,
+.client-row .col-sm-4 {
   display: inline-block;
   min-height: 80px;
   line-height: 80px;
@@ -1324,10 +1326,12 @@ img.phone-portrait {
 .client-row:last-child .row-wrapper {
   border-bottom: none;
 }
-.row-wrapper .col-sm-3 {
+.row-wrapper .col-sm-3,
+.row-wrapper .col-sm-4 {
   border-right: 1px solid rgba(0, 0, 0, 0.2);
 }
-.row-wrapper .col-sm-3:last-child {
+.row-wrapper .col-sm-3:last-child,
+.row-wrapper .col-sm-4:last-child {
   border-right: none;
 }
 .clients-2 {
